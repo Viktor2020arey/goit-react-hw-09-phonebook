@@ -1,0 +1,25 @@
+.label {
+  display: grid;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.input {
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 100%;
+  background-color: #d3d3d3;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.input:focus {
+  outline-color: #0000ff;
+}

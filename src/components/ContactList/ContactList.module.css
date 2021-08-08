@@ -1,0 +1,28 @@
+.list {
+  color: black;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.btn {
+  padding: 0px;
+  height: auto;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
