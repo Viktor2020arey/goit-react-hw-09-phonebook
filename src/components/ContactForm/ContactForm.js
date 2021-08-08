@@ -46,6 +46,7 @@ function ContactForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    resetInput();
     if (checkRepeatName(name)) {
       return alert(`🤔 ${name} is already in the phonebook.`);
     } else if (checkRepeatNumber(number)) {
@@ -55,7 +56,6 @@ function ContactForm() {
     } else {
       dispatch(contactsOperations.addContact(name, number));
     }
-    resetInput();
   };
 
   const resetInput = () => {
